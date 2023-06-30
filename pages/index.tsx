@@ -1,6 +1,6 @@
 import { useState, useEffect, } from "react";
 
-export default function Index(){
+export default function index(){
 
     const [ state, setState ] = useState([]);
 

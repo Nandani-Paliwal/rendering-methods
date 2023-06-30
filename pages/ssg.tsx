@@ -1,4 +1,4 @@
-export default function Ssg({state} : {state: string[]}){
+export default function staticsiterendering({state} : {state: string[]}){
      return(
         <div>
             {state.map((e:any) => (
