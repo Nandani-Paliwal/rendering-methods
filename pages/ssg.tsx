@@ -1,6 +1,4 @@
-import "./api"
-
-export default function ssg({state}){
+export default function Ssg({state} : {state: string[]}){
      return(
         <div>
             {state.map((e:any) => (
