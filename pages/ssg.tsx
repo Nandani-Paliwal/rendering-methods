@@ -1,3 +1,5 @@
+import { GetStaticProps } from "next";
+
 export default function staticsiterendering({state} : {state: string[]}){
      return(
         <div>
